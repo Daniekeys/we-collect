@@ -37,8 +37,7 @@ const Features = () => {
                             <div
                               className="bg-fea w-full h-[684px] relative "
                               key={index}
-                              data-aos="fade-up"
-                              data-aos-duration="2000"
+                             
                             >
                               <div className="flex flex-col  items-center  rounded-[30px] bg-white  w-11/12 h-[620px] pt-28">
                                 <Image
