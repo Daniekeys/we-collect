@@ -6,7 +6,7 @@ import Image from 'next/image';
 const Dashboard = () => {
   return (
     <ContainerLayout>
-      <div className="w-full flex flex-col mt-[100px] lg:mt-[209px]">
+      <div className="w-full flex flex-col mt-[20px] lg:mt-[209px]">
         <h1
           className="text-customBlack text-2xl lg:text-[40px] text-center font-bold  "
           data-aos="fade-up"

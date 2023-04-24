@@ -20,7 +20,7 @@ const [active, setActive] = useState(false);
       return () => window.removeEventListener("scroll", handleScroll);
     }
   }, []);
-  console.log(active)
+  
  
   return (
     <>

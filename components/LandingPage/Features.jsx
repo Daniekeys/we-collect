@@ -24,36 +24,33 @@ const data = [
 ]
 const Features = () => {
   return (
-      <div className='w-full mt-32 mb-32 '>
+      <div className='w-full mt-12 mb-0 '>
           <ContainerLayout >
               <div className="flex flex-col">
                   
               
-              <div className="w-full grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-x-12 ">
+              <div className="w-full grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-x-12 pb-8 py-8 ">
                   
                   {
                       data?.map((item,index) => {
                           return (
-                            <div
-                              className="bg-fea w-full h-[684px] relative "
-                              key={index}
-                             
-                            >
-                              <div className="flex flex-col  items-center  rounded-[30px] bg-white  w-11/12 h-[620px] pt-28">
+                          <>
+                              <div className="flex flex-col  items-center box-drop  rounded-[30px] bg-white  w-11/12 h-auto pt-6 pb-6" key={index}>
                                 <Image
                                   src={item.img}
                                   alt={item.title}
-                                  className="w-7/12 mx-auto mb-20"
-                                />
+                                  className="w-7/12 mx-auto mb-10"
+                                  />
                                 <h2 className="text-[#333333] text-lg lg:text-2xl font-bold text-center">
                                   {item.title}
                                 </h2>
-                                <p className="text-[#333333] w-10/12 opacity-70 text-center text-base lg:text-xl">
+                                <p className="text-[#333333] w-10/12 opacity-70 text-center text-base lg:text-base">
                                   {item.story}
                                 </p>
                               </div>
-                              <div className="bg-one"></div>
-                            </div>
+                              
+                                  </>
+                            
                           );
                       })
                   }

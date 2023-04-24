@@ -90,6 +90,9 @@ box-shadow: 15px 15px 50px rgba(255, 255, 255, 0.25);
 .z-high{
   z-index: 9999;
 }
+.box-drop{
+  filter: drop-shadow(15px 0px 50px rgba(71, 71, 214, 0.15));
+}
 
 
 

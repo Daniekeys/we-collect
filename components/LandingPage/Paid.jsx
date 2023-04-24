@@ -18,7 +18,7 @@ const Paid = () => {
                 <Image
                   src={wallet}
                   alt="wallet"
-                  className="w-full lg:w-9/12 h-auto"
+                  className="w-full lg:w-6/12 h-auto"
                   data-aos="zoom-in"
                   data-aos-duration="2000"
                 />
@@ -55,7 +55,7 @@ const Paid = () => {
                 <Image
                   src={steps}
                   alt="wallet"
-                  className="w-full h-auto mb-10 lg:mb-0"
+                  className="w-9/12 h-auto mb-10 lg:mb-0"
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 />
@@ -64,7 +64,7 @@ const Paid = () => {
                 <Image
                   src={task}
                   alt="wallet"
-                  className="w-full lg:w-9/12 h-auto"
+                  className="w-full lg:w-6/12 h-auto"
                   data-aos="zoom-in"
                   data-aos-duration="2000"
                 />
