@@ -35,11 +35,11 @@ const Features = () => {
                       data?.map((item,index) => {
                           return (
                           <>
-                              <div className="flex flex-col  items-center box-drop  rounded-[30px] bg-white  w-11/12 h-auto pt-6 pb-6" key={index}>
+                              <div className="flex flex-col  items-center box-drop  rounded-[30px] bg-white justify-center  w-11/12  h-[400px]" key={index}>
                                 <Image
                                   src={item.img}
                                   alt={item.title}
-                                  className="w-7/12 mx-auto mb-10"
+                                  className="w-5/12 mx-auto mb-10"
                                   />
                                 <h2 className="text-[#333333] text-lg lg:text-2xl font-bold text-center">
                                   {item.title}

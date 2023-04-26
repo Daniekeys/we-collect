@@ -48,14 +48,14 @@ const Paid = () => {
               </div>
             </div>
             {/* section two */}
-            <div className="w-full flex flex-col lg:flex-row mt-10 lg:space-x-12">
+            <div className="w-full flex flex-col lg:flex-row mt-4 lg:space-x-12">
               <div className="w-full lg:w-1/2 flex flex-col justify-center">
                 <p className='lg:text-[40px] text-2xl text-center lg:text-start
-                 font-bold text-customBlack mb-5 '>Get Started In 3 Easy Steps</p>
+                 font-bold text-customBlack mb-8 '>Get Started In 3 Easy Steps</p>
                 <Image
                   src={steps}
                   alt="wallet"
-                  className="w-9/12 h-auto mb-10 lg:mb-0"
+                  className="w-7/12 h-auto mb-10 lg:mb-0"
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 />

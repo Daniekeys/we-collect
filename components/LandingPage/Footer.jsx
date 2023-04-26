@@ -45,7 +45,7 @@ const Footer = () => {
           data-aos="fade-up"
           data-aos-duration="2000"
         >
-          <div className="w-full lg:w-10/12 flex lg:space-x-8 flex-col">
+          <div className="w-full lg:w-10/12 flex lg:flex-row lg:space-x-8 flex-col">
             <div className="flex-col w-full lg:w-4/12">
               <h1 className="text-white font-semibold lg:leading-8 text-md lg:text-xl">
                 Stay Connected.
