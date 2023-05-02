@@ -64,7 +64,7 @@ const BlogHero = () => {
           </div>
           <div className="w-full md:w-5/12 flex flex-col">
             <p className="text-[12px] md:text-base text-[#555] mt-6 ">April 12 . 10:52 PM</p>
-            <h2 className="md:w-11/12 w-full text-[40px] font-[500] text-[#333] my-7 text-2xl">
+            <h2 className="md:w-11/12 w-full text-[40px] font-[500] text-[#333] my-7 text-2xl md:leading-[60px]">
               Collecting data smarter with WeCollect.
             </h2>
             <p className="text-[#555] text-sm md:text-xl">
