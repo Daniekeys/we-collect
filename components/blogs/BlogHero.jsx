@@ -54,7 +54,7 @@ const BlogHero = () => {
         </div>
         {/* <div className='w-full h-[1px] mt-10 bg-[#999]' /> */}
         <h1 className="mt-16 text-[#555] text-xl md:text-[40px] ">Latest</h1>
-        <div className="w-full mt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="w-full mt-12 flex flex-col md:flex-row justify-between items-center ">
           <div className="w-full md:w-6/12 items-center">
             <Image
               src={heroImage}
@@ -62,9 +62,9 @@ const BlogHero = () => {
               className="w-full h-auto rounded-[30px]"
             />
           </div>
-          <div className="w-full md:w-5/12 flex flex-col">
-            <p className="text-[12px] md:text-base text-[#555] mt-6 ">April 12 . 10:52 PM</p>
-            <h2 className="md:w-11/12 w-full text-[40px] font-[500] text-[#333] my-7 text-2xl md:leading-[60px]">
+          <div className="w-full md:w-5/12 flex flex-col justify-center">
+            <p className="text-[12px] md:text-base text-[#555] md:mt-6 2xl:mt-0 ">April 12 . 10:52 PM</p>
+            <h2 className="md:w-11/12 w-full text-[32px] 2xl:text-[40px] font-[500] text-[#333] my-7 md:mt-2 md:mb-2 text-2xl md:leading-[60px]">
               Collecting data smarter with WeCollect.
             </h2>
             <p className="text-[#555] text-sm md:text-xl">
