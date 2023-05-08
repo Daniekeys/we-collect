@@ -24,7 +24,7 @@ const AllBlogs = () => {
               <Image
                 src={item.image}
                 alt="image"
-                className="w-11/12 mx-auto md:w-8/12 h-auto rounded-[30px]"
+                className="w-full object-cover mx-auto md:w-full h-auto rounded-[30px]"
               />
               <p className="text-[12px] md:text-base text-[#555] mt-4 ">
                 {item.date}
@@ -36,7 +36,7 @@ const AllBlogs = () => {
                 {item.content}
               </p>
               <p
-                className="bg-mainBlue  text-base text-white  font-semibold mt-4 rounded-[30px] w-fit px-6 py-3 cursor-pointer "
+                className="hover:bg-mainBlue bg-white   text-base text-mainBlue border border-mainBlue hover:border-none  hover:text-white  font-semibold mt-4 rounded-[20px] w-fit px-6 py-3 cursor-pointer "
                 onClick={() => router.push(`/blog/${index}`)}
               >
                 Blog
