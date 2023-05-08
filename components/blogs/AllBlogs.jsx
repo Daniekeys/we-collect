@@ -10,7 +10,7 @@ const AllBlogs = () => {
   return (
     <ContainerLayout>
       <div className="w-full flex flex-col mt-20 mb-8 md:mb-0">
-        <h1 className="mt-16 text-[#555] text-2xl md:text-[40px] mb-8 ">
+        <h1 className="mt-16 text-[#555] text-2xl md:text-[40px] mb-8 font-[500]">
           Older posts
         </h1>
         <div className="w-full grid grid-cols-1 gap-x-8 gap-y-12  sm:grid-cols-2 lg:grid-cols-3 flow-hide">

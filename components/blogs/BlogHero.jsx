@@ -53,7 +53,7 @@ const BlogHero = () => {
           </div>
         </div>
         {/* <div className='w-full h-[1px] mt-10 bg-[#999]' /> */}
-        <h1 className="mt-16 text-[#555] text-xl md:text-[40px] ">Latest</h1>
+        <h1 className="mt-16 text-[#555] text-xl md:text-[40px] font-[500] ">Latest</h1>
         <div className="w-full mt-12 flex flex-col md:flex-row justify-between items-center ">
           <div className="w-full md:w-6/12 items-center">
             <Image
