@@ -31,7 +31,7 @@ const Hero = ({active}) => {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-1/2">
+          <div className="w-full lg:w-1/2 justify-end flex">
             <Image
               src={heroImage}
               alt="here"

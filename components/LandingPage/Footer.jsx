@@ -17,14 +17,14 @@ const Footer = () => {
     <ContainerLayout>
       <div className="w-full lg:w-10/12 mx-auto flex flex-col lg:py-[70px] bg-white">
         <h1
-          className="text-customeBlack font-bold text-base lg:text-2xl"
+          className="text-customeBlack font-bold text-base lg:text-2xl pl-8"
           data-aos="fade-up"
           data-aos-duration="2000"
         >
           COMING SOON
         </h1>
         <div
-          className="flex space-x-6 mt-4"
+          className="flex space-x-6 mt-4 pl-8"
           data-aos="fade-up"
           data-aos-duration="2000"
         >
@@ -57,7 +57,7 @@ const Footer = () => {
             <div className="flex bg-white h-[56px] rounded-[20px] justify-between  items-center px-2  lg:w-8/12">
               <input
                 type="text"
-                className=" grow    placeholder:text-customBlack placeholder:text-md lg:placeholder:text-2xl "
+                className=" grow    placeholder:text-customBlack placeholder:text-md lg:placeholder:text-2xl border-none outline-none md:pl-5 "
                 placeholder="johndoe@example.com"
               />
               <button className="w-fit flex justify-center items-center h-[48px] px-3 lg:px-9 bg-mainBlue text-white text-[12px] lg:text-2xl font-bold rounded-[20px] ">
