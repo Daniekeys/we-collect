@@ -72,7 +72,7 @@ const BlogHero = () => {
               diam. Phasellus nisi auctor viverra pellentesque. In ut
               condimentum nisl eu. Ut viverra et mattis sem nibh ipsum...
             </p>
-            <button className="w-[143px] h-[65px] justify-center items-center flex text-mainBlue font-semibold text-base cursor-pointer rounded-[30px] border border-mainBlue mt-4">
+            <button className="w-[143px] h-[65px] justify-center items-center flex text-mainBlue font-semibold text-base cursor-pointer rounded-[20px] border border-mainBlue mt-4">
               Blog
             </button>
           </div>
