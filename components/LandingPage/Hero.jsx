@@ -23,7 +23,7 @@ const Hero = ({active}) => {
               Leverage advanced data-collecting technology and numerous field
               agents to access and track data for various projects.
             </p>
-            <div className="lg:flex flex-col hidden">
+            <div className=" lg:flex flex-col hidden">
               <p className="text-white font-bold text-2xl mt-8">COMING SOON</p>
               <div className="flex items-center mt-4 space-x-4">
                 <Google />
@@ -32,18 +32,21 @@ const Hero = ({active}) => {
             </div>
           </div>
           <div className="w-full lg:w-1/2 justify-end flex">
+            <div className="w-full flex flex-col">
+
             <Image
               src={heroImage}
               alt="here"
               className="w-11/12 mt-12 h-auto"
               data-aos="zoom-in"
               data-aos-duration="2000"
-            />
+              />
             <div className="flex flex-col lg:hidden">
               <p className="text-white font-bold text-2xl mt-8">COMING SOON</p>
               <div className="flex items-center mt-4 space-x-4">
                 <Google />
                 <Apple />
+              </div>
               </div>
             </div>
           </div>
